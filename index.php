@@ -9,7 +9,7 @@
 <body>
 <p>あんまんあきこロイドちゃんのページです。</p>
 <?php
-$handle = fopen("/site/wwwroot/ttext.txt", "r");
+$handle = fopen("text.txt", "r");
 print $handle;
 ?>
 </body>

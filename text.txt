@@ -1,2 +1,173 @@
-text desu.
-テキストです。
+<html><head>
+<meta http-equiv='Content-Type'content='text/html; charset=utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<title>瞬刊！イマココ新聞</title>
+<LINK href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+<kugiri>
+</script>
+<script src="mn.js" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8" src="http://js.api.olp.yahooapis.jp/OpenLocalPlatform/V1/jsapi?appid=dj0zaiZpPXBhUXNHQnFvdERkUSZzPWNvbnN1bWVyc2VjcmV0Jng9MzM-"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="sha1.js"></script>
+<script type="text/javascript" src="oauth.js"></script>
+<noscript>Sorry,your browser can't view this page...</noscript>
+</head>
+<body onLoad='init()'>
+<div id="1_tomodati_map" style="position: absolute; top:0px; height:20px; width:20px; overflow:hidden; background-color:beige; z-index:0;">
+<div id="2_tablemap" style="z-index:0;">
+<div id="bg" style="width:100%; height:1000px; background-color:beige; z-index:10;"></div>
+<div id="map_fb" style="position: absolute; top:0px; width:auto; height:auto; overflow:visible; z-index:20;">
+<table border='0' CELLSPACING='5'>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='pref' id='Hokkaido' onClick='mb("Hokkaido")' style="line-height:1;">北海道</td><td>　</td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='pref' id='Aomori' onClick='mb("Aomori")'>青森</td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='pref' id='Akita' onClick='mb("Akita")'>秋田</td><td class='pref' id='Iwate' onClick='mb("Iwate")'>岩手</td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='pref' id='Yamagata' onClick='mb("Yamagata")'>山形</td><td class='pref' id='Miyagi' onClick='mb("Miyagi")'>宮城</td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='pref' id='Niigata' onClick='mb("Niigata")'>新潟</td><td class='pref' id='Fukushima' onClick='mb("Fukushima")'>福島</td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='pref' id='Toyama' onClick='mb("Toyama")'>富山</td><td class='pref' id='Gunma' onClick='mb("Gunma")'>群馬</td><td class='pref' id='Tochigi' onClick='mb("Tochigi")'>栃木</td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='pref' id='Ishikawa' onClick='mb("Ishikawa")'>石川</td><td class='pref' id='Nagano' onClick='mb("Nagano")'>長野</td><td class='pref' id='Saitama' onClick='mb("Saitama")'>埼玉</td><td class='pref' id='Ibaraki' onClick='mb("Ibaraki")'>茨城</td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class='pref' id='Fukui' onClick='mb("Fukui")'>福井</td><td class='pref' id='Gifu' onClick='mb("Gifu")'>岐阜</td><td class='pref' id='Yamanashi' onClick='mb("Yamanashi")'>山梨</td><td class='pref' id='Tokyo' onClick='mb("Tokyo")'>東京</td><td class='pref' id='Chiba' onClick='mb("Chiba")'>千葉</td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td class='pref' id='Shimane' onClick='mb("Shimane")'>島根</td><td class='pref' id='Tottori' onClick='mb("Tottori")'>鳥取</td><td class='pref' id='Hyogo' onClick='mb("Hyogo")'>兵庫</td><td class='pref' id='Kyoto' onClick='mb("Kyoto")'>京都</td><td class='pref' id='Shiga' onClick='mb("Shiga")'>滋賀</td><td class='pref' id='Aichi' onClick='mb("Aichi")'>愛知</td><td class='pref' id='Shizuoka' onClick='mb("Shizuoka")'>静岡</td><td class='pref' id='Kanagawa' onClick='mb("Kanagawa")' style="line-height:1;">神奈川</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td class='pref' id='Yamaguchi' onClick='mb("Yamaguchi")'>山口</td><td class='pref' id='Hiroshima' onClick='mb("Hiroshima")'>広島</td><td class='pref' id='Okayama' onClick='mb("Okayama")'>岡山</td><td class='pref' id='Osaka' onClick='mb("Osaka")'>大阪</td><td class='pref' id='Nara' onClick='mb("Nara")'>奈良</td><td class='pref' id='Mie' onClick='mb("Mie")'>三重</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td class='pref' id='Fukuoka' onClick='mb("Fukuoka")'>福岡</td><td></td><td></td><td></td><td></td><td class='pref' id='Wakayama' onClick='mb("Wakayama")' style="line-height:1;">和歌山</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td class='pref' id='Nagasaki' onClick='mb("Nagasaki")'>長崎</td><td class='pref' id='Saga' onClick='mb("Saga")'>佐賀</td><td class='pref' id='Oita' onClick='mb("Oita")'>大分</td><td></td><td class='pref' id='Ehime' onClick='mb("Ehime")'>愛媛</td><td class='pref' id='Kagawa' onClick='mb("Kagawa")'>香川</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td class='pref' id='Kumamoto' onClick='mb("Kumamoto")'>熊本</td><td class='pref' id='Miyazaki' onClick='mb("Miyazaki")'>宮崎</td><td></td><td class='pref' id='Kochi' onClick='mb("Kochi")'>高知</td><td class='pref' id='Tokushima' onClick='mb("Tokushima")'>徳島</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td class='pref' id='Kagoshima' onClick='mb("Kagoshima")' style="line-height:1;">鹿児島</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td class='pref' id='Okinawa' onClick='mb("Okinawa")'>沖縄</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
+<center><br><br><a href='javascript:change_div("2")'>戻る</a><br><br></center>
+</div>
+</div>
+<div id="2_control" style="position:absolute; top:0px; z-index:30;">
+<center>
+<br>
+<table border='0' CELLSPACING='5'><tr><td><img src="img/mn_tom.png" height="20px"></td><td><b>あなたのお友達マップ</b></td><td><span id="main"></span></td></tr></table>
+<table border='0' CELLSPACING='5'>
+<tr><td class="ctl">地域</td><td class="ctl"><span id="ctl_jp"><b>[国内]</b></span>　<span id="os"><a href='javascript:region_change("os")'>海外</a></span>　<span id="emp"><a href='javascript:region_change("emp")'>アドレス無し</a></span></td></tr>
+<tr><td class="ctl">友達の</td><td class="ctl"><div id="menu"></div></td></tr>
+<tr><td><div id="sub"></div></td><td class="ctl"><div id="sub_menu"></div></td></tr>
+</table>
+<div id="oth_emp" style="position:relative; width:auto; height:auto;">
+<div id="other" style="position: absolute; top:0px; left:10px; height:0px; width:0px; overflow:hidden; z-index:0;"></div>
+<div id="empty" style="position: absolute; top:0px; left:10px; height:0px; width:0px; overflow:hidden; z-index:0;"></div>
+</div>
+</center>
+</div>
+<div id="mb_img" style="position:absolute; top:0px; left:10px; background-color:white; padding: 10px; z-index:50;">
+<div id="mb_img_top"></div>
+<div id="mb_img_hometown"></div>
+<div id="mb_img_location"></div>
+<div id="mb_img_visit"></div>
+<div id="mb_img_fb"></div>
+<div id="mb_img_tw"></div>
+<div id="mb_img_btm"></div>
+</div>
+</div>
+
+<div id="1_min_navi" style="position: absolute; top:0px; height:auto; width:100%; overflow:visible; z-index:10;">
+
+<DIV id="fb_login" style="position:absolute; top:150px; width:100%; height:100px; z-index:0;">
+<DIV onClick='fb_login_view("fb_login")' style="width:80%; margin: 0 auto; text-align:center;">
+<DIV style="background-color:#ffffff;">
+facebookのアカウントで<br>ログインしてください。<br>
+<a href='https://facebook.com/dialog/oauth/?redirect_uri=http%3A%2F%2Fimasin.com%2F&client_id=1407276646192175&scope=friends_hometown,friends_location,friends_checkins'>
+<img src="img/fb_l.png"></a><br>　
+</DIV>
+</DIV>
+</DIV>
+
+<DIV onClick='cng_zindex("help","0")' id="help" style="position:absolute; top:50px; width:100%; height:20px; overflow:hidden; z-index:0;">
+<center>
+<table border='0' CELLSPACING='30' bgcolor='white'><tr><td>
+imasin.comヘルプ<br><br>
+<table border='0' CELLSPACING='10'>
+<tr><td>imasin.comでは、地域のお店情報はもちろん旬の話題やどんな人がいるかといった地域の事を詳しく知る事ができます。</td></tr>
+<tr><td>知らない地域だけでなくあなたのご近所やふるさとでも知らない情報が出てくると思います。</td></tr>
+<tr><td>地域振興に関心のある方なら地元や他地域の情報を収集する事で新たな手がかりを見つける事ができるかもしれません！</td></tr>
+</table><br><br>
+機能の説明
+<table border='0' CELLSPACING='15'>
+<tr><td class='help'><img src='img/mn_news.png' width='50px'  align='left'>
+瞬刊！イマココ新聞<br>以下の情報を簡単操作で見る事ができます。<br>
+<table border='0' CELLSPACING='3'>
+<tr class="help"><td>ニュース</td><td class='help'>地域の住所が含まれるニュースを表示します。<br>ニュース検索API(Google AJAX Search API)を利用。</td></tr>
+<tr class="help"><td>話題</td><td class='help'>地域の住所が含まれるツイッターのツイートを表示します。<br><a href="https://twitter.com/twitterapi" target="new">Twitter API</a>を利用。</td></tr>
+<tr class="help"><td>ひと</td><td class='help'>地図に表示している地域で発信したツイッターのツイートを表示します。<br><a href="https://twitter.com/twitterapi" target="new">Twitter API</a>を利用。</td></tr>
+<tr class="help"><td>名所<br>in<br>京都</td><td class='help'>地図に表示している地域の名所を表示します。現在表示できるのは京都市内のみです。<br><a href="https://kyoto.smartercity.jp/" target="new">観光実証</a>データを利用。</td></tr>
+<tr class="help"><td>グルメ</td><td class='help'>表示している地域の飲食店を表示します。<br><a href="http://api.hotpepper.jp/guide.html#001" target="new">ホットペッパー Webサービス</a>を利用。</td></tr>
+<tr class="help"><td>宿</td><td class='help'>表示している地域の宿泊施設を表示します。<br><a href="http://webservice.rakuten.co.jp/document/#travelApi" target="new">楽天トラベル系API</a>を利用。</td></tr>
+</table>
+</td></tr>
+<tr><td class='help'><img src='img/mn_tom.png' width='50px' align='left'>お友達マップ<br>facebook上のお友達の出身地・居住地・チェックインした場所を地図上に表示します。facebookでのログインが必要です。</td></tr>
+<tr><td class='help'><img src='img/mn_ido.png' width='50px' align='left'>現在地に移動する<br>今いる場所の地図を表示します。</td></tr>
+<tr><td class='help'><img src='img/mn_help.png' width='50px' align='left'>imasin.comヘルプを開きます。</td></tr>
+</table>
+<br>
+<br>
+クレジット表示
+<br>
+<!-- Begin Yahoo! JAPAN Web Services Attribution Snippet -->
+<a href="http://developer.yahoo.co.jp/about">
+<img src="http://i.yimg.jp/images/yjdn/yjdn_attbtn1_125_17.gif" title="Webサービス by Yahoo! JAPAN" alt="Web Services by Yahoo! JAPAN" width="125" height="17" border="0" style="margin:15px 15px 15px 15px"></a>
+<!-- End Yahoo! JAPAN Web Services Attribution Snippet -->
+<br>
+<a href="http://www.hotpepper.jp/"><img src="http://api.hotpepper.jp/content/images/hp_api_s.gif" alt="ホットペッパー Webサービス" width="155" height="20" border="0" title="ホットペッパー Webサービス"></a>
+<br>
+<!-- Rakuten Web Services Attribution Snippet FROM HERE -->
+<a href="http://webservice.rakuten.co.jp/" target="_blank"><img src="http://webservice.rakuten.co.jp/img/credit/200709/credit_7052.gif" border="0" alt="楽天ウェブサービスセンター" title="楽天ウェブサービスセンター" width="70" height="52"/></a>
+<!-- Rakuten Web Services Attribution Snippet TO HERE -->
+<br><br><br>
+Produced by <a href="http://futurist.cocolog-nifty.com/blog/" target="new">ふうたりすと</a>.
+<br><br><br>
+[ × ]<br><br>
+</td></tr>
+</table>
+</center>
+</DIV>
+
+<div style="position: fixed; top:0px; z-index:20;">
+<div id="map" style="width:280px; height:400px; z-index:20;"></div>
+</div>
+<DIV id="b_title_base" style="position: fixed; width:100%; bottom:0px; height:150px; z-index:50;">
+<DIV id="b_title">瞬刊！イマココ新聞</DIV>
+</DIV>
+<div id="control2" style="position: fixed; left:10px; bottom:0px; height:70px; z-index:60;">
+<center>
+<table border='0' CELLSPACING='0'><tr>
+<td class="ctl" width="70px"><img src='img/mn_news.png' width='50px' onClick='list_change()' title='瞬刊！イマココ新聞'></td>
+<td class="ctl" width="70px"><img src='img/mn_tom.png' width='50px' onClick='change_div("1")' title='あなたのお友達マップ'><img id='ctl_img_fb_1' src='img/fb.png' height='14px'></td>
+<td class="ctl" width="70px"><img src='img/mn_ido.png' width='50px' onClick='location_up()' title='現在地に移動する'></td>
+<td class="ctl" width="70px"><img src='img/mn_help.png' width='50px' onClick='cng_zindex("help", "80")' title='ヘルプ'></td>
+</tr></table>
+</center>
+</div>
+<DIV id="marker_list" style="top:0px; left:0px; position:absolute; width:180px; height:300px; padding-left:10px; padding-right:10px; overflow:hidden; background-color:#4c4c4c; z-index:0;">
+<DIV id="ml_head"><img src='img/top_news.png' height='35px' style="vertical-align: -8px;"><b>瞬刊！イマココ新聞</b>
+<div style="padding-left:10px; padding:5px 5px 10px 10px; background-color:black; font-size: 0.8em;"><center>
+<span id="ml_pref"></span>
+<span id="ml_city"></span>
+<span id="ml_town"></span>
+の<br>”今”をお伝えします！</center>
+</div>
+</DIV>
+<br>
+<DIV id="ml_news_1" onClick='execSearch("news")'><b>ニュース</b><span class="point"><img id='ctl_news_oc' src='img/mn_close.png' height='20px'></span></DIV>
+<DIV id="ml_news"></DIV>
+<hr>
+<DIV id="ml_wadai_1" onClick='execSearch("wadai")'><b>話題</b><span class="point"><img id='ctl_wadai_oc' src='img/mn_close.png' height='20px'></span></DIV>
+<DIV id="ml_wadai"></DIV>
+<hr>
+<DIV id="ml_tw_1" onClick='execSearch("tw")'><b>ひと</b><span class="point"><img id='ctl_tw_oc' src='img/mn_close.png' height='20px'></span></DIV>
+<DIV id="ml_tw"></DIV>
+<hr>
+<DIV id="ml_gourmet_1" onClick='execSearch("gourmet")'><b>グルメ</b><span class="point"><img id='ctl_gourmet_oc' src='img/mn_close.png' height='20px'></span></DIV>
+<DIV id="ml_gourmet"></DIV>
+<hr>
+<DIV id="ml_hotel_1" onClick='execSearch("hotel")'><b>宿</b><span class="point"><img id='ctl_hotel_oc' src='img/mn_close.png' height='20px'></span></DIV>
+<DIV id="ml_hotel"></DIV>
+<hr>
+<DIV id="ml_close" style="font-size: 0.8em;"><center><br>「Twitterで地元の事を呟くことも一つのまち興しだと思うんです」by<a href="http://futurist.cocolog-nifty.com/blog/" target="new" class="c_lnk">ふうたりすと</a><br><br><br><br>　</center></DIV>
+</DIV>
+</div>
+</body>
+</HTML>

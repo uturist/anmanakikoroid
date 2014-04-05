@@ -159,10 +159,10 @@ Produced by <a href="http://futurist.cocolog-nifty.com/blog/" target="new">ふ�
 <DIV id="ml_tw_1" onClick='execSearch("tw")'><b>ひと</b><span class="point"><img id='ctl_tw_oc' src='img/mn_close.png' height='20px'></span></DIV>
 <DIV id="ml_tw"></DIV>
 <hr>
-<DIV id="ml_gourmet_1" onClick='execSearch("gourmet")'><b>グルメ</b><span class="point"><img id='ctl_gourmet_oc' src='img/mn_close.png' height='20px'></span></DIV>
+<DIV id="ml_gourmet_1" onClick='execSearch("gourmet")'></DIV>
 <DIV id="ml_gourmet"></DIV>
 <hr>
-<DIV id="ml_hotel_1" onClick='execSearch("hotel")'><span class="point"><img id='ctl_hotel_oc' src='img/mn_close.png' height='20px'></span></DIV>
+<DIV id="ml_hotel_1" onClick='execSearch("hotel")'></DIV>
 <DIV id="ml_hotel"></DIV>
 <hr>
 <DIV id="ml_close" style="font-size: 0.8em;"></DIV>

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" 
         content="text/html; charset=Shift_Jis">
-<title>PHP入門</title>
+<title>PHPテスト</title>
 </head>
 
 <body>

@@ -134,7 +134,7 @@ Produced by <a href="http://futurist.cocolog-nifty.com/blog/" target="new">ふ�
 <div id="control2" style="position: fixed; left:10px; bottom:0px; height:70px; z-index:60;">
 <center>
 <table border='0' CELLSPACING='0'><tr>
-<td class="ctl" width="70px"><img src='img/mn_news.png' width='50px' onClick='list_change()' title='店舗情報を見る'></td>
+<td class="ctl" width="70px"><img src='img/ls.png' width='50px' onClick='list_change()' title='店舗情報を見る'></td>
 <td class="ctl" width="70px"><img src='img/mn_ido.png' width='50px' onClick='location_up()' title='現在地に移動する'></td>
 <td class="ctl" width="70px"><img src='img/mn_help.png' width='50px' onClick='cng_zindex("help", "80")' title='ヘルプ'></td>
 </tr></table>

@@ -9,8 +9,23 @@
 <body>
 <p>あんまんあきこロイドちゃんのページです。</p>
 <?php
-$handle = fopen("text.txt", "r");
-print $handle;
+$text = fopen("text.txt", "r");
+
+if ($text){
+    if (flock($text, LOCK_SH)){
+        while (!feof($text)) {
+            $buffer = fgets($text);
+            print($buffer);
+        }
+
+        flock($text, LOCK_UN);
+    }else{
+        print('ファイルロックに失敗しました');
+    }
+}
+
+fclose($text);
+
 ?>
 </body>
 </html>

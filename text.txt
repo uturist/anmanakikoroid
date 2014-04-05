@@ -129,7 +129,7 @@ Produced by <a href="http://futurist.cocolog-nifty.com/blog/" target="new">ふ�
 <div id="map" style="width:280px; height:400px; z-index:20;"></div>
 </div>
 <DIV id="b_title_base" style="position: fixed; width:100%; bottom:0px; height:150px; z-index:50;">
-<DIV id="b_title">瞬刊！イマココ新聞</DIV>
+<DIV id="b_title">あんまんあきこロイドちゃん</DIV>
 </DIV>
 <div id="control2" style="position: fixed; left:10px; bottom:0px; height:70px; z-index:60;">
 <center>

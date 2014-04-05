@@ -159,6 +159,7 @@ Produced by <a href="http://futurist.cocolog-nifty.com/blog/" target="new">ふ�
 <DIV id="ml_tw_1" onClick='execSearch("tw")'><b>ひと</b><span class="point"><img id='ctl_tw_oc' src='img/mn_close.png' height='20px'></span></DIV>
 <DIV id="ml_tw"></DIV>
 <hr>
+<br><br><br><br><br><br><br>
 <DIV id="ml_gourmet_1" onClick='execSearch("gourmet")'></DIV>
 <DIV id="ml_gourmet"></DIV>
 <DIV id="ml_hotel_1" onClick='execSearch("hotel")'></DIV>

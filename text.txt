@@ -140,7 +140,7 @@ Produced by <a href="http://futurist.cocolog-nifty.com/blog/" target="new">ふ�
 </center>
 </div>
 <DIV id="marker_list" style="top:0px; left:0px; position:absolute; width:180px; height:300px; padding-left:10px; padding-right:10px; overflow:hidden; background-color:#4c4c4c; z-index:0;">
-<DIV id="ml_head"><img src='img/top_news.png' height='35px' style="vertical-align: -8px;"><b>瞬刊！イマココ新聞</b>
+<DIV id="ml_head"><b>瞬刊！イマココ新聞</b>
 <div style="padding-left:10px; padding:5px 5px 10px 10px; background-color:black; font-size: 0.8em;"><center>
 <span id="ml_pref"></span>
 <span id="ml_city"></span>

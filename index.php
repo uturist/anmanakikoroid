@@ -20,7 +20,7 @@ if ($text){
 
         flock($text, LOCK_UN);
     }else{
-        print('ファイルロックに失敗しました');
+        print('再度読み込んでください（ファイルロック失敗）');
     }
 }
 

@@ -8,5 +8,9 @@
 
 <body>
 <p>あんまんあきこロイドちゃんのページです。</p>
+<?php
+$handle = fopen("text.txt", "r");
+print $handle;
+?>
 </body>
 </html>

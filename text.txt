@@ -150,7 +150,7 @@ Produced by <a href="http://futurist.cocolog-nifty.com/blog/" target="new">ふ�
 </div>
 </DIV>
 <br>
-<DIV id="ml_news_1" onClick='execSearch("news")'><b>ニュース</b><span class="point"><img id='ctl_news_oc' src='img/mn_close.png' height='20px'></span></DIV>
+<DIV id="ml_news_1" onClick='execSearch("news")'><b>店舗</b><span class="point"><img id='ctl_news_oc' src='img/mn_close.png' height='20px'></span></DIV>
 <DIV id="ml_news"></DIV>
 <hr>
 <DIV id="ml_wadai_1" onClick='execSearch("wadai")'><b>話題</b><span class="point"><img id='ctl_wadai_oc' src='img/mn_close.png' height='20px'></span></DIV>

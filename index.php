@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+Content-type: text/html
 
 <?php
 $text = fopen("text.txt", "r");

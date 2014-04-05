@@ -161,10 +161,8 @@ Produced by <a href="http://futurist.cocolog-nifty.com/blog/" target="new">„Åµ„Å
 <hr>
 <DIV id="ml_gourmet_1" onClick='execSearch("gourmet")'></DIV>
 <DIV id="ml_gourmet"></DIV>
-<hr>
 <DIV id="ml_hotel_1" onClick='execSearch("hotel")'></DIV>
 <DIV id="ml_hotel"></DIV>
-<hr>
 <DIV id="ml_close" style="font-size: 0.8em;"></DIV>
 </DIV>
 </div>
